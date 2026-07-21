@@ -11,6 +11,9 @@ __pycache__/
 build/
 develop-eggs/
 dist/
+.build/
+.swiftpm/
+DerivedData/
 downloads/
 eggs/
 .eggs/
@@ -216,3 +219,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MoodX facilitator-selected local audio. These files are user-owned test
+# inputs, not redistributable application assets.
+assets/sounds/

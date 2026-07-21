@@ -1,0 +1,11 @@
+{
+  "asset": "moodx-participation-shift.png",
+  "provider": "OpenAI built-in image generation",
+  "model": "TBD (not exposed by the built-in tool)",
+  "use_case": "illustration-story",
+  "generated_at": "2026-07-18T16:13:35Z",
+  "requested_format": "PNG",
+  "dimensions": "1672x941",
+  "sha256": "6c0b3ebd82ae4a81b20522b98d749ec6df18c6d243a9e9be046a57a392b7eeef",
+  "prompt": "Use case: illustration-story\nAsset type: wide 16:9 pitch-deck visual for the MoodX problem-and-outcome story\nPrimary request: create a sophisticated split-moment editorial illustration of a Japanese enterprise online meeting. On the left, a facilitator faces a quiet grid of colleagues where only the same two people are visibly active and several thoughtful participants are waiting silently. On the right, after a gentle playful audio cue, the same meeting feels warmer and more participatory: more people use reactions, chat, or raise a hand, while nobody is forced to speak. Show psychological safety and wider contribution, not exaggerated celebration.\nScene/backdrop: refined home-office and enterprise remote-meeting context, abstracted video tiles\nStyle/medium: premium editorial illustration with subtle 3D depth and soft rounded geometry, mature enterprise design, not childish\nComposition/framing: wide landscape with a natural left-to-right transition and generous negative space; preserve readable silhouettes at presentation size\nLighting/mood: left side quiet and muted, right side softly energized and inclusive\nColor palette: deep plum and charcoal foundation, off-white skin-neutral highlights, electric lime #c6ff5c and violet #a78bfa as restrained interaction accents\nConstraints: no readable text, no logos, no Microsoft Teams branding, no flags, no stereotypes, diverse adult colleagues, no biometric analysis motifs, no surveillance, no engagement scores, no watermark"
+}
