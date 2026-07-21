@@ -36,6 +36,9 @@ review without publishing secrets or unlicensed local test audio.
 - Committed the complete project baseline, pushed
   `agent/publish-moodx-project`, and opened draft pull request #1 against
   `main`.
+- The project owner explicitly approved merging all changes from pull request
+  #1 into `main`; mergeability was clean, with no configured CI checks or
+  review requirement.
 
 ### Verification
 
@@ -46,8 +49,7 @@ review without publishing secrets or unlicensed local test audio.
 
 ### Next steps
 
-- Review draft pull request #1 and merge only after the repository owner is satisfied
-  with the complete initial project scope.
+- Use the merged `main` branch as the baseline for the next MoodX session.
 - Add any distributable sound to version control only with a documented license
   and provenance record.
 
