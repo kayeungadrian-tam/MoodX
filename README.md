@@ -1,5 +1,14 @@
 # MoodX
 
+<p align="center">
+  <img
+    src="assets/generated/moodx-participation-shift.png"
+    alt="Concept illustration showing a quiet online meeting becoming warmer and more participatory after a facilitator-created opening"
+    width="100%"
+  />
+</p>
+<p align="center"><sub>AI-generated concept illustration: MoodX is testing this participation shift, not claiming it as a measured outcome.</sub></p>
+
 MoodX is exploring a psychologically safe participation layer for online
 meetings. The current hypothesis is that widening the ways people can
 contribute—without scoring or exposing individuals—can help teams surface more
@@ -83,6 +92,15 @@ The harness makes no network requests. It stores generated fixtures and
 transcripts under the ignored `.cache/` directory by default.
 
 ## Native macOS mixer
+
+<p align="center">
+  <img
+    src="assets/generated/moodx-local-audio-system.png"
+    alt="Concept illustration of microphone and facilitator-controlled sound-pad audio flowing locally through a Mac into an online meeting"
+    width="100%"
+  />
+</p>
+<p align="center"><sub>AI-generated system concept. The authoritative implemented architecture is documented under <code>docs/technical/</code>.</sub></p>
 
 The canonical product lives in [`macos/MoodXMixer/`](macos/MoodXMixer/). It is a
 native SwiftUI application that captures a physical microphone, mixes in

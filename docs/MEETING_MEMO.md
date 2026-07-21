@@ -9,6 +9,52 @@ been agreed.
 
 ---
 
+## 2026-07-21 — Add a visual story to the repository README
+
+### Participants
+
+- Project owner
+- Codex
+
+### Goal
+
+Make the GitHub README more immediately understandable by adding relevant
+MoodX imagery directly on `main`.
+
+### Decisions and work completed
+
+- Reused two existing, documented generated assets rather than producing new
+  artwork: `moodx-participation-shift.png` and
+  `moodx-local-audio-system.png`.
+- Added the participation-shift image as the README hero and the local-audio
+  system image beside the native mixer story.
+- Added descriptive alternative text and visible AI-generated concept captions.
+- Kept the captions explicit that the participation outcome is a hypothesis and
+  that technical documentation—not concept art—is the architecture source.
+
+### Verification
+
+- Inspected both source images at their full 1672 × 941 resolution.
+- Verified both relative README image paths and their adjacent provenance
+  sidecars exist.
+- Markdown whitespace, repository-diff, and image/sidecar digest checks: passed.
+
+### Next steps
+
+- Review the rendered README on GitHub after pushing `main`.
+- Add a real application screenshot later when a stable beta build is ready;
+  label it separately from concept imagery.
+
+### Documentation review
+
+- `README.md`: updated.
+- `docs/MEETING_MEMO.md`: updated for this session.
+- `docs/ADR.md`, `docs/ROADMAP.md`, task-specific technical/product documents,
+  and `docs/pitch-deck/`: reviewed; no product, architecture, roadmap, or deck
+  content changed.
+
+---
+
 ## 2026-07-21 — Publish the current project state
 
 ### Participants
