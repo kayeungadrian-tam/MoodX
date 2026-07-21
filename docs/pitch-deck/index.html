@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="MoodX is a local macOS meeting-audio mixer designed to help facilitators create safer, more participatory online meetings."
+    />
+    <title>MoodX — Living Pitch Deck</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="deck-header">
+      <a class="wordmark" href="#title" aria-label="MoodX pitch deck home">MoodX</a>
+      <p>Living pitch deck <span aria-hidden="true">·</span> 2026-07-19</p>
+    </header>
+
+    <main class="deck">
+      <section class="slide slide--hero" id="title" aria-labelledby="title-heading">
+        <img
+          class="hero-art"
+          src="../../assets/generated/moodx-local-audio-system.png"
+          alt="Concept illustration of a microphone and local sound mixer sending audio into an online meeting"
+        />
+        <div class="hero-copy">
+          <p class="eyebrow">OpenAI Build Week · macOS prototype</p>
+          <h1 id="title-heading">Mood<span>X</span></h1>
+          <p class="lede">Fun is a doorway to participation—and value follows.</p>
+        </div>
+        <div class="hero-status">
+          <span>Native mixer</span><span>Local audio</span><span>Teams-ready route</span>
+        </div>
+        <a class="next" href="#problem">Begin the story <span aria-hidden="true">↓</span></a>
+        <p class="ai-disclosure">Concept visual generated with AI and reviewed by the MoodX team.</p>
+      </section>
+
+      <section class="slide" id="problem" aria-labelledby="problem-heading">
+        <div class="split-heading">
+          <div>
+            <p class="slide-number">01 / Problem</p>
+            <h2 id="problem-heading">The room is full. The conversation is not.</h2>
+          </div>
+          <p class="section-lede">Online meetings can end with the same few voices carrying the discussion while useful context stays silent—an especially visible concern in the project owner's Japanese enterprise context.</p>
+        </div>
+        <figure class="visual visual--story">
+          <img
+            src="../../assets/generated/moodx-participation-shift.png"
+            alt="Conceptual before-and-after online meeting: a quiet room becomes more broadly participatory after a gentle cue"
+          />
+          <figcaption>Concept, not evidence: MoodX is testing whether facilitator-led cues can widen the ways people contribute.</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide" id="insight" aria-labelledby="insight-heading">
+        <p class="slide-number">02 / Product insight</p>
+        <h2 id="insight-heading">Silence is a signal, not a score.</h2>
+        <div class="insight-layout">
+          <p class="insight-quote">The goal is not equal talk time. It is equal access to contribution.</p>
+          <div class="reason-grid">
+            <article><strong>Thinking</strong><p>Some people need a pause before responding.</p></article>
+            <article><strong>Translating</strong><p>Language and cultural context change response time.</p></article>
+            <article><strong>Assessing safety</strong><p>Disagreement carries different social risk for each person.</p></article>
+            <article><strong>Waiting for an opening</strong><p>A credible invitation can matter more than another prompt.</p></article>
+          </div>
+        </div>
+        <p class="note">These are hypotheses to validate, not inferred explanations for any individual participant.</p>
+      </section>
+
+      <section class="slide" id="solution" aria-labelledby="solution-heading">
+        <div class="split-heading split-heading--compact">
+          <div>
+            <p class="slide-number">03 / Solution</p>
+            <h2 id="solution-heading">Use energy to open the room—not merely entertain it.</h2>
+          </div>
+          <ul class="feature-list">
+            <li>Native macOS mixer</li>
+            <li>Nine customizable sound pads</li>
+            <li>Mic, SFX, and master channels</li>
+            <li>BlackHole output for Teams</li>
+            <li>Optional English/Japanese local transcript</li>
+            <li>One session control with Light/Dark themes</li>
+            <li>Meeting timer + protected decision checkpoint</li>
+            <li>Facilitator-approved 45-second Quiet Think</li>
+            <li>No retained recording or cloud audio</li>
+          </ul>
+        </div>
+        <p class="note">Playful cues earn attention; the intended value is a safer opening for more useful perspectives to enter the meeting.</p>
+        <figure class="visual visual--system-concept">
+          <img
+            src="../../assets/generated/moodx-local-audio-system.png"
+            alt="Concept illustration of local microphone and sound-pad audio flowing into an online meeting"
+          />
+          <figcaption>Concept illustration. The implemented interface and exact signal path are shown next.</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide" id="demo" aria-labelledby="demo-heading">
+        <p class="slide-number">04 / Demo flow</p>
+        <h2 id="demo-heading">Five moves from setup to participation.</h2>
+        <ol class="story-steps">
+          <li><span>01</span><p><strong>Choose the microphone</strong>Select the facilitator's physical input inside MoodX.</p></li>
+          <li><span>02</span><p><strong>Shape the board</strong>Use the built-in cues or assign a local audio file to any pad.</p></li>
+          <li><span>03</span><p><strong>Choose the session</strong>Include or exclude the local listener, then use one Start session control.</p></li>
+          <li><span>04</span><p><strong>Patch and facilitate</strong>Select BlackHole 2ch in Teams, then use cues and the optional transcript deliberately.</p></li>
+          <li><span>05</span><p><strong>Protect the decision</strong>Run the meeting timer, invoke the checkpoint, and offer a facilitator-approved 45-second Quiet Think.</p></li>
+        </ol>
+      </section>
+
+      <section class="slide" id="architecture" aria-labelledby="architecture-heading">
+        <div class="split-heading">
+          <div>
+            <p class="slide-number">05 / System overview</p>
+            <h2 id="architecture-heading">The whole audio path stays on the Mac.</h2>
+          </div>
+          <div class="privacy-badge"><span aria-hidden="true">●</span> Local processing boundary</div>
+        </div>
+
+        <div class="system-boundary" aria-label="MoodX local audio system diagram">
+          <p class="boundary-label">Facilitator's Mac</p>
+          <div class="source-stack">
+            <article class="system-node">
+              <span>Input A</span><strong>Physical microphone</strong><small>First input channel</small>
+            </article>
+            <article class="system-node">
+              <span>Input B</span><strong>Sound pads</strong><small>Built-in or local files</small>
+            </article>
+          </div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <article class="system-node system-node--core">
+            <span>MoodX</span><strong>SwiftUI + AVAudioEngine</strong><small>Mix · levels · mute · ducking · meter</small>
+          </article>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <article class="system-node system-node--route">
+            <span>Private Core Audio patch</span><strong>Aggregate device</strong><small>BlackHole clock + mic drift correction</small>
+          </article>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <article class="system-node">
+            <span>Virtual output</span><strong>BlackHole 2ch</strong><small>One complete mono mix</small>
+          </article>
+        </div>
+        <div class="teams-route">
+          <div><span>Teams microphone</span><strong>BlackHole 2ch</strong></div>
+          <span aria-hidden="true">→</span>
+          <div><span>Meeting</span><strong>Mic + facilitator cues</strong></div>
+          <div class="route-warning"><span>Teams speaker</span><strong>Physical headphones</strong><small>Never route remote audio back through BlackHole.</small></div>
+        </div>
+        <p class="note">Optional fixed-language STT uses a separate selected input and ephemeral local windows. No upload, emotion inference, scoring, or automatic playback.</p>
+      </section>
+
+      <section class="slide" id="evidence" aria-labelledby="evidence-heading">
+        <p class="slide-number">06 / Build evidence</p>
+        <h2 id="evidence-heading">The prototype is real. The outcome is still a hypothesis.</h2>
+        <div class="metric-grid">
+          <article><strong>9</strong><span>Customizable native pads</span></article>
+          <article><strong>48k</strong><span>Mono mixer format</span></article>
+          <article><strong>≤0.062×</strong><span>Synthetic local-STT warm RTF</span></article>
+        </div>
+        <div class="evidence-list">
+          <p><span>Verified</span> Native build, signing, device discovery, live meter, BlackHole route, pad playback, local-file conversion, persistence, and reset.</p>
+          <p><span>Research direction</span> Silent individual thinking plus an explicit, appreciated invitation is better supported than asking the room to speak immediately.</p>
+          <p><span>Platform reality</span> Teams already provides polls, Q&amp;A, reactions, timers, notes, and tasks; MoodX must prove the transition into participation.</p>
+          <p><span>STT implemented</span> Explicit English/Japanese selection, separate capture, five-second local windows, ephemeral transcript, and no playback link.</p>
+          <p><span>Meeting rhythm implemented</span> Configurable timer, protected final checkpoint, explicit decision prompt, and 45-second Quiet Think.</p>
+          <p><span>Not yet verified</span> The Japan-based customer segment, sound's incremental value, cultural fit, contribution breadth, and effect on outcomes.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="guardrails" aria-labelledby="guardrails-heading">
+        <p class="slide-number">07 / Guardrails</p>
+        <h2 id="guardrails-heading">Energy without pressure.</h2>
+        <div class="guardrail-grid">
+          <article><span>01</span><strong>Facilitator controlled</strong><p>No autonomous emotion detection or surprise playback.</p></article>
+          <article><span>02</span><strong>Visible meaning</strong><p>Do not rely on sound alone for decisions, warnings, or instructions.</p></article>
+          <article><span>03</span><strong>Team opt-in</strong><p>Professional defaults; playful palettes chosen with the group.</p></article>
+          <article><span>04</span><strong>Licensed audio</strong><p>Local customization does not remove the facilitator's rights responsibility.</p></article>
+        </div>
+      </section>
+
+      <section class="slide" id="roadmap" aria-labelledby="roadmap-heading">
+        <p class="slide-number">08 / Validation plan</p>
+        <h2 id="roadmap-heading">Validate before we automate.</h2>
+        <div class="roadmap-line">
+          <article><span>Discover</span><strong>Reconstruct</strong><p>Interview participants and facilitators about specific moments when useful input stayed silent.</p></article>
+          <article><span>Built</span><strong>Quiet Think</strong><p>Timer, protected checkpoint, risk prompt, and 45-second pause now work locally.</p></article>
+          <article><span>Isolate</span><strong>Compare</strong><p>Run the same ritual with and without sound to learn whether fun adds value.</p></article>
+          <article><span>Then</span><strong>Expand</strong><p>Make only the validated ritual repeatable, accessible, consented, and easier to deploy.</p></article>
+        </div>
+        <p class="note">Recommended first moment: “Before we commit: what risk, question, or alternative have we not considered?”</p>
+        <p class="note">The segment, buyer, feasibility thresholds, and sound's incremental effect remain hypotheses—not product claims.</p>
+      </section>
+
+      <section class="slide slide--closing" id="ask" aria-labelledby="ask-heading">
+        <p class="slide-number">09 / Ask</p>
+        <h2 id="ask-heading">Help MoodX test the room, not score the people.</h2>
+        <div class="ask-card">
+          <span>Pilot ask</span>
+          <p>Recruit three Japan-based project teams using Teams and facilitators willing to test a consented Quiet Think decision checkpoint.</p>
+        </div>
+        <a class="next" href="#title">Back to the start <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Canonical source: <code>docs/pitch-deck/index.html</code> · Selected concept visuals are AI-generated and human-reviewed.</p>
+    </footer>
+  </body>
+</html>

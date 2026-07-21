@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-18T14:08:26.168552+00:00",
+  "provider": "Google Gemini API",
+  "generator": "scripts/generate_image.py",
+  "sha256": "93805ba765698ff2c16279fe5829b0ea05fa3ea5cc81b348e5014e37cf12dd5b",
+  "returned_mime_type": "image/jpeg",
+  "model": "gemini-3.1-flash-image",
+  "input": "Regression verification for the MoodX Gemini image pipeline. Abstract minimal composition of one soft violet and acid-lime light ribbon on a deep plum field, generous negative space, calm, no text, no people, no logos, no UI.",
+  "response_format": {
+    "type": "image",
+    "mime_type": "image/jpeg",
+    "aspect_ratio": "16:9",
+    "image_size": "1K"
+  }
+}

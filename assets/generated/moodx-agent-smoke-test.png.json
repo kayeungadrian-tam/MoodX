@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-07-18T14:04:51.590506+00:00",
+  "provider": "Google Gemini API",
+  "generator": "scripts/generate_image.py with documented post-processing",
+  "sha256": "ed8919a9dfe16ac6403903469ecbfe585b50dba177ac622646a25960a1309464",
+  "returned_mime_type": "image/jpeg",
+  "stored_mime_type": "image/png",
+  "postprocessing": "Converted losslessly from the API-returned JPEG container to PNG because the Gemini Interactions endpoint rejected image/png as a response MIME type.",
+  "model": "gemini-3.1-flash-image",
+  "input": "Purpose: temporary MoodX pitch-deck concept background testing the image-generation pipeline. Subject: an abstract flowing emotional spectrum formed from translucent layered ribbons and soft particles. Composition: cinematic wide 16:9 frame with generous uncluttered negative space on the left for a title; visual energy gathers toward the right without crowding the frame. Style and lighting: polished cinematic editorial lighting, deep near-black plum background, acid-lime and violet highlights matching the existing MoodX deck, refined depth, subtle glow, calm and optimistic mood. Constraints: no people, no faces, no logos, no text, no typography, no user interface, no medical imagery.",
+  "response_format": {
+    "type": "image",
+    "mime_type": "image/jpeg",
+    "aspect_ratio": "16:9",
+    "image_size": "1K"
+  }
+}

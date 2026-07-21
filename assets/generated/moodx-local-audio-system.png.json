@@ -1,0 +1,11 @@
+{
+  "asset": "moodx-local-audio-system.png",
+  "provider": "OpenAI built-in image generation",
+  "model": "TBD (not exposed by the built-in tool)",
+  "use_case": "productivity-visual",
+  "generated_at": "2026-07-18T16:13:35Z",
+  "requested_format": "PNG",
+  "dimensions": "1672x941",
+  "sha256": "67616a8e009a8d924b6368d6ec31896163f4f31308d70e19b639b14e473f4948",
+  "prompt": "Use case: productivity-visual\nAsset type: wide 16:9 pitch-deck illustration for MoodX system concept\nPrimary request: create a polished editorial 3D illustration of a fully local macOS meeting-audio workflow: a physical desktop microphone and a compact laptop sound-pad mixer on the left, luminous audio waves flowing through the laptop and a small virtual audio portal, then reaching a calm grid of remote meeting participants on the right. Convey that the facilitator controls playful sound cues locally and the meeting becomes more energized without surveillance.\nScene/backdrop: deep plum-to-black studio environment with generous negative space and subtle depth\nStyle/medium: premium soft 3D editorial illustration, elegant enterprise technology aesthetic, clean rounded forms, no photorealism\nComposition/framing: wide cinematic landscape, clear left-to-right flow, all key subjects fully in frame, suitable for cropping inside a presentation slide\nLighting/mood: restrained, confident, warm human energy; luminous lime and violet audio trails\nColor palette: near-black plum, charcoal, off-white, electric lime #c6ff5c, restrained violet #a78bfa, tiny coral accents\nConstraints: no readable text, no logos, no Microsoft Teams branding, no Apple logo, no watermark, no biometric or surveillance imagery, no charts, no cables crossing chaotically"
+}
