@@ -1,0 +1,126 @@
+1
+00:00:00,300 --> 00:00:03,400
+<font size="82" color="#c6ff5c"><b>{\an5}MEETINGS ARE FINE.</b></font>
+
+2
+00:00:02,300 --> 00:00:07,500
+<font size="48" color="#fff4f7"><b>Every Monday at nine, Mina's team performed a beloved corporate ritual:
+pretending the meeting was fine.</b></font>
+
+3
+00:00:03,400 --> 00:00:06,300
+<font size="44" color="#fff4f7"><b>{\an5}Everyone is invited. Getting a word in is optional.</b></font>
+
+4
+00:00:07,500 --> 00:00:13,000
+<font size="48" color="#fff4f7"><b>Ken had already spoken for twelve minutes. Yuki had three useful thoughts
+and exactly zero safe openings.</b></font>
+
+5
+00:00:13,000 --> 00:00:19,000
+<font size="48" color="#fff4f7"><b>Rob was frozen mid-blink. His cat, however,
+had several agenda items.</b></font>
+
+6
+00:00:19,000 --> 00:00:23,600
+<font size="34" color="#c6ff5c"><b>{\an7}THE CAT WOULD LIKE TO CIRCLE BACK.</b></font>
+
+7
+00:00:24,200 --> 00:00:27,500
+<font size="82" color="#c6ff5c"><b>{\an5}ENTER: MOODX</b></font>
+
+8
+00:00:26,800 --> 00:00:32,800
+<font size="48" color="#fff4f7"><b>Then Mina reached for MoodX. Not an engagement score.
+Not a robot judging everyone's face.</b></font>
+
+9
+00:00:32,800 --> 00:00:39,000
+<font size="48" color="#fff4f7"><b>Just one facilitator-controlled cue:
+part chime, part tiny theatrical intervention.</b></font>
+
+10
+00:00:39,000 --> 00:00:45,500
+<font size="48" color="#fff4f7"><b>Ken stopped mid-sentence. The cat sat down.
+The meeting remembered it had other people in it.</b></font>
+
+11
+00:00:45,500 --> 00:00:47,600
+<font size="34" color="#c6ff5c"><b>{\an7}MIRACLES: NOW AVAILABLE AS A BUTTON.</b></font>
+
+12
+00:00:48,100 --> 00:00:51,800
+<font size="82" color="#c6ff5c"><b>{\an5}QUIET THINK</b></font>
+
+13
+00:00:50,800 --> 00:00:57,400
+<font size="48" color="#fff4f7"><b>MoodX protected forty-five seconds, with one question:
+what risk, question, or alternative have we not considered?</b></font>
+
+14
+00:00:57,400 --> 00:01:03,200
+<font size="48" color="#fff4f7"><b>Nobody had to perform spontaneity.
+Ken bravely survived not speaking.</b></font>
+
+15
+00:01:03,200 --> 00:01:09,500
+<font size="48" color="#fff4f7"><b>Yuki wrote. Rob thought. The cat disabled the keyboard.
+A surprisingly strong facilitation technique.</b></font>
+
+16
+00:01:09,500 --> 00:01:11,600
+<font size="34" color="#c6ff5c"><b>{\an7}45 SECONDS. KEN'S PERSONAL BEST.</b></font>
+
+17
+00:01:12,100 --> 00:01:15,500
+<font size="82" color="#c6ff5c"><b>{\an5}THERE IT IS.</b></font>
+
+18
+00:01:14,400 --> 00:01:20,600
+<font size="48" color="#fff4f7"><b>Yuki shared the risk everyone had missed:
+the launch depended on a system going offline tomorrow.</b></font>
+
+19
+00:01:20,600 --> 00:01:26,900
+<font size="48" color="#fff4f7"><b>Ken listened. Mina asked a follow-up.
+Rob finally found his unmute button.</b></font>
+
+20
+00:01:26,900 --> 00:01:33,300
+<font size="48" color="#fff4f7"><b>The decision changed. No rankings. No public scores.
+Just a playful doorway, followed by a useful contribution.</b></font>
+
+21
+00:01:33,300 --> 00:01:35,600
+<font size="34" color="#c6ff5c"><b>{\an7}USEFUL THOUGHT: SUCCESSFULLY UNMUTED.</b></font>
+
+22
+00:01:36,100 --> 00:01:39,800
+<font size="82" color="#c6ff5c"><b>{\an5}A BETTER MEETING.</b></font>
+
+23
+00:01:38,800 --> 00:01:45,200
+<font size="48" color="#fff4f7"><b>A better plan, a clear follow-up,
+and eleven minutes returned to their lives.</b></font>
+
+24
+00:01:45,200 --> 00:01:51,000
+<font size="48" color="#fff4f7"><b>MoodX did not make everyone louder.
+It made room for the thought that mattered.</b></font>
+
+25
+00:01:51,000 --> 00:01:56,500
+<font size="48" color="#fff4f7"><b>Fun opened the door. Participation created the value.
+The cat, naturally, accepted full credit.</b></font>
+
+26
+00:01:56,000 --> 00:01:59,900
+<font size="24" color="#c8aeb7">{\an3}Concept video · AI-generated visuals and synthetic preview narration · Human review required before publication</font>
+
+27
+00:01:56,500 --> 00:01:59,900
+<font size="82" color="#c6ff5c"><b>{\an5}MOODX</b></font>
+
+28
+00:01:57,500 --> 00:01:59,900
+<font size="44" color="#fff4f7"><b>{\an5}Make room for more minds.</b></font>

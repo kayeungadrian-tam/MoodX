@@ -9,6 +9,365 @@ been agreed.
 
 ---
 
+## 2026-07-22 — Prepare the repository for Build Week submission
+
+### Participants
+
+- Project owner
+- Codex
+
+### Goal
+
+Satisfy the submission requirement for a repository URL and a README that
+highlights how Codex and GPT-5.6 were used.
+
+### Discussion and decisions
+
+- Use the configured GitHub repository URL:
+  `https://github.com/kayeungadrian-tam/MoodX`.
+- The repository is currently private. Keep it private only if both required
+  Devpost/OpenAI reviewer addresses are granted access; otherwise make it
+  public before submission.
+- Describe the human–AI working loop and concrete Codex/GPT-5.6 contributions
+  without implying that the product was produced or validated autonomously.
+
+### Work completed
+
+- Added a dedicated **How Codex and GPT-5.6 were used** section to the main
+  README covering product reasoning, research, documentation, implementation,
+  debugging, testing, agent use, and media production.
+- Verified the configured remote, default branch, canonical URL, and private
+  visibility with GitHub CLI.
+- Reviewed the ADR, technical requirements, roadmap, documentation index, and
+  pitch deck. This submission clarification does not change the product or
+  architecture, so no content updates were required.
+
+### Open questions and next steps
+
+- Commit and push the outstanding repository changes before submitting the
+  URL; the current remote does not yet contain this README update.
+- Either change repository visibility to public or invite
+  `testing@devpost.com` and `build-week-event@openai.com` to the private repo.
+
+## 2026-07-22 — Prepare the meme video for YouTube publication
+
+### Participants
+
+- Project owner
+- Codex
+
+### Goal
+
+Complete the YouTube Studio metadata and publication choices for the finished
+MoodX meme video.
+
+### Discussion and decisions
+
+- Use the prepared descriptive title, full product description, chapters, and
+  AI-production disclosure from `videos/moodx-meme-95s/YOUTUBE_UPLOAD.md`.
+- Upload the custom thumbnail and separate English SRT even though the MP4 also
+  contains an embedded caption track.
+- Mark the video as not made for children.
+- Select the altered/synthetic-content disclosure for maximum transparency
+  because the video uses AI-generated narration and illustrations. YouTube
+  states that disclosure does not itself restrict audience or monetization.
+- Publish as Unlisted first, review the fully processed YouTube stream, and
+  change to Public only after the review passes.
+
+### Work completed
+
+- Provided field-by-field guidance for Details, Video elements, Checks, and
+  Visibility.
+- Reviewed the README, ADR, requirements, roadmap, and pitch deck. Publication
+  metadata does not change the product or architecture, so no content updates
+  were required.
+
+### Open questions and next steps
+
+- Confirm the ElevenLabs voice is cleared for the intended publication.
+- Add final project, demo, and beta links when available; they remain `TBD`.
+- Complete the Unlisted playback review before switching to Public.
+
+## 2026-07-21 — Produce the meme-led MoodX YouTube video
+
+### Participants
+
+- Project owner
+- Codex
+
+### Goal
+
+Turn the project owner's ElevenLabs narration into a YouTube-ready meme video,
+using real MoodX screenshots in the product reveal.
+
+### Discussion and decisions
+
+- Follow the performed narration's 95.19-second timing rather than stretching
+  the edit to the earlier two-minute treatment.
+- Use original meme compositions instead of downloaded commercial meme images.
+- Combine two AI-generated illustrations with deterministic typography and
+  shapes so all punchline text remains exact.
+- Transition from illustrated meeting problems to the actual app screenshots
+  at the “Start with a little fun” line.
+- Add a restrained, locally synthesized original score that brightens at the
+  doorway turn and remains underneath the narration.
+- Keep AI-generation and product-hypothesis disclosures in the YouTube package.
+
+### Work completed
+
+- Transcribed the narration locally with the packaged whisper.cpp runtime and
+  corrected captions against the approved script.
+- Generated and reviewed original **Unmute Final Boss** and **Internal Approval
+  Committee** illustrations with the built-in image-generation tool; recorded
+  exact prompts and checksums.
+- Rendered twelve synchronized meme and product scenes, including both supplied
+  application screenshots.
+- Created a reproducible local renderer and build pipeline, original ambient
+  music bed, embedded and separate English captions, thumbnail, and contact
+  sheet.
+- Exported the final review cut and prepared YouTube title, description,
+  chapters, tags, disclosure, and upload checklist.
+- Reviewed the ADR, technical requirements, roadmap, and pitch deck. This media
+  production does not alter accepted architecture, product requirements,
+  roadmap priorities, or the pitch deck's product thesis, so no content update
+  was required.
+
+### Verification
+
+- Video: 95.2 seconds; H.264; 1920 × 1080; 30 fps; yuv420p.
+- Audio: stereo AAC at 48 kHz; −14.4 LUFS integrated; −1.4 dBFS true peak.
+- Captions: embedded English `mov_text` plus a separate SRT file.
+- All twelve scenes and the thumbnail were visually reviewed.
+- Python and shell build scripts pass syntax checks; the build completed from
+  source assets.
+
+### Open questions and next steps
+
+- Confirm that the supplied ElevenLabs voice is cleared for the intended
+  YouTube use.
+- Complete a final human listen on headphones and speakers.
+- Add the final project, demo, and beta links to the upload description; they
+  remain `TBD`.
+- Uploading to YouTube remains the project owner's external publication action.
+
+## 2026-07-21 — Select a meme-led MoodX introduction narrative
+
+### Participants
+
+- Project owner
+- Codex
+
+### Goal
+
+Replace the character-led concept-video direction with an engagement narrative
+told through sequential memes and culminating in a MoodX reveal.
+
+### Discussion and decisions
+
+- Retain the two-minute, landscape YouTube format.
+- Use a fast sequence of original meme cards to make common meeting-engagement
+  failures immediately recognizable.
+- Let comedy establish the problem, then shift into a sincere explanation of
+  the missing doorway to participation before revealing MoodX.
+- Target meeting mechanics rather than cultures, quiet participants, or
+  personality types.
+- Use original meme compositions instead of copying recognizable commercial
+  meme images or personalities.
+- End with the established thesis: “Fun is a doorway to participation, and
+  value follows.”
+
+### Work completed
+
+- Created `docs/video/MOODX_MEME_NARRATIVE_SCRIPT.md` with twelve timed beats,
+  continuous voice-over, audio direction, production guardrails, and open
+  production decisions.
+- Marked the prior five-scene document as the record of the existing review
+  draft and linked it to the newly selected direction.
+- Added the new script to the repository and documentation indexes.
+- Reviewed the ADR, requirements, roadmap, and pitch deck. The narrative change
+  does not alter architecture, product requirements, roadmap priorities, or the
+  pitch deck's product thesis, so no content updates were required.
+
+### Open questions and next steps
+
+- Choose the narrator voice and production language.
+- Decide whether the Gemini-generated clip remains in the cold open.
+- Produce original visuals for each meme beat and design the final MoodX logo
+  animation and sonic signature.
+- Record a timed scratch narration before committing to final animation.
+
+## 2026-07-21 — Review the Gemini-generated opening clip
+
+### Participants
+
+- Project owner
+- Codex
+
+### Goal
+
+Inspect and register the new Gemini-generated MoodX introduction scene.
+
+### Discussion and decisions
+
+- Preserve the submitted source video unchanged while it remains a candidate.
+- The clip successfully communicates the intended sequence: Ken finishes,
+  silence lands, Yuki hesitates, and the cat supplies the comic payoff.
+- Generic meeting-control icons appear during the final frames. Their final
+  treatment is `TBD`; possible treatments are acceptance, masking, cropping,
+  or regeneration.
+
+### Work completed
+
+- Verified a 10.005-second, 1280 × 720, 24 fps H.264 video with stereo 48 kHz
+  AAC audio.
+- Reviewed representative frames across the clip and recorded its provenance,
+  checksum, technical format, strengths, and known visual issue in
+  `docs/video/MOODX_2MIN_VIDEO.md`.
+- Reviewed the README, ADR, requirements, roadmap, and pitch deck. Candidate
+  asset intake does not change the architecture, product requirements,
+  roadmap, or presentation, so no content updates were required.
+
+### Open questions and next steps
+
+- Decide whether to remove or retain the generated meeting-control icons.
+- Decide whether this clip replaces the first 10 seconds of the current master
+  or becomes part of a newly edited opening sequence.
+- Review the embedded audio by ear before publication; technical validation
+  alone does not establish dialogue quality or clearance.
+
+## 2026-07-21 — Adapt the opening scene for DeeVid Viral Studio
+
+### Participants
+
+- Project owner
+- Codex
+
+### Goal
+
+Prepare a reusable prompt for generating the introduction scene in DeeVid
+Viral Studio.
+
+### Discussion and decisions
+
+- Use the existing `scene-01.png` keyframe as the image-to-video reference so
+  the established cast, meeting grid, palette, and cat gag remain consistent.
+- Keep the generated shot to 8–10 seconds with restrained character movement
+  and a gentle camera push-in.
+- Establish the product problem through a warm, recognizable silence after
+  “Any thoughts?”; do not ridicule quiet participants or imply surveillance.
+- Treat spoken dialogue as optional during generation and add it in editing if
+  generated lip movement is not convincing.
+
+### Work completed
+
+- Added the copy-ready DeeVid opening-scene prompt and recommended controls to
+  `docs/video/MOODX_2MIN_VIDEO.md`.
+- Reviewed the README, ADR, requirements, roadmap, and pitch deck. This prompt
+  adaptation does not change the product, requirements, architecture, roadmap,
+  or presentation, so no content updates were required.
+
+### Open questions and next steps
+
+- Generate and review the first 8–10-second clip in DeeVid.
+- If character consistency or motion is weak, iterate one variable at a time:
+  first motion strength, then prompt strength, then dialogue removal.
+- Final generation settings and the selected clip remain `TBD` until review.
+
+## 2026-07-21 — Create a two-minute MoodX concept video
+
+### Participants
+
+- Project owner
+- Codex
+
+### Goal
+
+Create a funny, visually consistent two-minute MoodX video in 16:9 landscape
+format for YouTube.
+
+### Discussion
+
+- The project owner chose 16:9 landscape after initially describing the video
+  as a Short.
+- The creative direction needed to explain the product without presenting the
+  depicted participation outcome as validated evidence.
+- The visual joke should target familiar meeting dynamics, not quiet
+  participants or inferred emotions.
+- The local FFmpeg build lacks the optional subtitle-rendering filter, so scene
+  titles are rendered portably with Pillow and full captions ship as both an
+  embedded optional track and a separate SRT file.
+
+### Decisions
+
+- Use five 24-second story beats: awkward meeting, facilitator-controlled cue,
+  Quiet Think, useful contribution, and comic payoff.
+- Preserve the same four coworkers, orange cat, four-window layout, clay-like
+  3D style, and MoodX palette in every generated keyframe.
+- Make Mina explicitly trigger MoodX; do not depict autonomous analysis,
+  emotion inference, rankings, individual scoring, or surveillance.
+- Use macOS synthetic narration only as a review voice and require clearance or
+  replacement before public or commercial publication.
+- Include a visible AI-image disclosure and keep the current product outcome
+  framed as an illustrative hypothesis.
+
+### Work completed
+
+- Generated and visually reviewed five 1672 × 941 keyframes with Codex's
+  built-in image-generation tool.
+- Recorded the final prompts, character bible, SHA-256 digests, narration,
+  scene timing, disclosure, and publication checklist.
+- Added a reproducible local build that creates title overlays, voice-over,
+  original synthesized cue tones, camera motion, transitions, optional English
+  captions, and a 1920 × 1080 H.264 MP4.
+- Exported the 119.9-second review video, English SRT file, and six-frame visual
+  contact sheet under `dist/video/`.
+- Continued the same session by creating an editable 1280 × 720 thumbnail from
+  the closing keyframe and a complete YouTube copy package: recommended and
+  alternate titles, description, chapters, tags, hashtags, pinned comment, and
+  upload checklist. Unknown project and pilot links remain marked `TBD`.
+- At the project owner's request, copied the MP4, SRT captions, thumbnail, and
+  contact sheet from ignored build output into the permanent, unignored
+  `videos/moodx-2min-16x9/` delivery folder. Updated the build to refresh the
+  MP4, captions, and thumbnail in that folder on future runs.
+
+### Verification
+
+- Output: H.264 video, 1920 × 1080, 30 fps; AAC mono audio; embedded English
+  `mov_text` captions; duration 119.9 seconds.
+- Scene titles, character continuity, palette, Quiet Think framing, comic
+  payoff, and visible disclosure were inspected in a six-frame contact sheet.
+- Thumbnail composition and small-display legibility were reviewed separately;
+  it preserves the cat payoff and uses deterministic MoodX typography rather
+  than generated text.
+- Voice segments fit within their assigned scene windows; build scripts pass
+  shell and Python syntax checks.
+
+### Open questions
+
+- Which publication-cleared voice should replace the synthetic review voice?
+- What final YouTube title, thumbnail, description, and call to action should
+  be used?
+- Should the video remain a concept treatment or be recut with real application
+  footage after a stable beta is available?
+
+### Next steps
+
+- Conduct the project owner's full playback review.
+- Replace or clear the preview narration and resolve the publication metadata.
+- Rebuild and re-verify the export before uploading publicly.
+
+### Documentation review
+
+- `README.md` and `docs/README.md`: linked the new concept-video record.
+- `docs/MEETING_MEMO.md`: updated for this session.
+- `docs/ADR.md`: reviewed; no architecture decision was made.
+- `docs/pitch-deck/`: reviewed; the video follows the current product direction,
+  evidence boundaries, palette, and ask, so no deck content changed.
+- Product, roadmap, research, and technical documentation: reviewed; no product
+  status, roadmap commitment, evidence, or system behavior changed.
+
+---
+
 ## 2026-07-21 — Add a visual story to the repository README
 
 ### Participants

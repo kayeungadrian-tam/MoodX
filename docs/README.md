@@ -12,6 +12,14 @@ This directory is the centralized home for MoodX project documentation.
   deferral priorities.
 - [Living pitch deck](pitch-deck/index.html) — the centralized HTML/CSS product
   presentation.
+- [Two-minute concept video](video/MOODX_2MIN_VIDEO.md) — five-scene 16:9
+  workplace-comedy treatment, source prompts, narration, build instructions,
+  disclosure, and publication checklist.
+- [Meme-led video script](video/MOODX_MEME_NARRATIVE_SCRIPT.md) — selected
+  95-second narrative direction, original meme beats, voice-over, finale, and
+  production guardrails.
+- [Meme-video production record](video/MOODX_MEME_VIDEO_PRODUCTION.md) — source
+  assets, exact AI prompts, local build, verification, and publication bounds.
 - [Research records](research/) — dated, source-grounded research briefs.
 - [Product problem definition](product/PROBLEM_DEFINITION.md) — current problem,
   users, hypotheses, guardrails, and validation questions.

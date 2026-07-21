@@ -1,0 +1,50 @@
+[Script Info]
+Title: MoodX two-minute 16:9 video
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,48,&H00F7F4FF,&H00F7F4FF,&H00100C18,&HC0100C18,-1,0,0,0,100,100,0,0,1,4,1,2,145,145,62,1
+Style: Beat,Arial,34,&H005CFFC6,&H005CFFC6,&H00100C18,&H80100C18,-1,0,0,0,100,100,2,0,1,3,0,7,90,90,72,1
+Style: Hero,Arial,82,&H005CFFC6,&H005CFFC6,&H00100C18,&H80100C18,-1,0,0,0,100,100,-2,0,1,5,2,5,100,100,80,1
+Style: Subhero,Arial,44,&H00F7F4FF,&H00F7F4FF,&H00100C18,&H80100C18,-1,0,0,0,100,100,0,0,1,4,1,5,160,160,75,1
+Style: Disclosure,Arial,24,&H00B7AEC8,&H00B7AEC8,&H00100C18,&H80100C18,0,0,0,0,100,100,0,0,1,2,0,3,50,50,28,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.30,0:00:03.40,Hero,,0,0,0,,MEETINGS ARE FINE.
+Dialogue: 2,0:00:03.40,0:00:06.30,Subhero,,0,0,0,,Everyone is invited. Getting a word in is optional.
+Dialogue: 1,0:00:02.30,0:00:07.50,Caption,,0,0,0,,Every Monday at nine, Mina's team performed a beloved corporate ritual:\Npretending the meeting was fine.
+Dialogue: 1,0:00:07.50,0:00:13.00,Caption,,0,0,0,,Ken had already spoken for twelve minutes. Yuki had three useful thoughts\Nand exactly zero safe openings.
+Dialogue: 1,0:00:13.00,0:00:19.00,Caption,,0,0,0,,Rob was frozen mid-blink. His cat, however,\Nhad several agenda items.
+Dialogue: 0,0:00:19.00,0:00:23.60,Beat,,0,0,0,,THE CAT WOULD LIKE TO CIRCLE BACK.
+
+Dialogue: 2,0:00:24.20,0:00:27.50,Hero,,0,0,0,,ENTER: MOODX
+Dialogue: 1,0:00:26.80,0:00:32.80,Caption,,0,0,0,,Then Mina reached for MoodX. Not an engagement score.\NNot a robot judging everyone's face.
+Dialogue: 1,0:00:32.80,0:00:39.00,Caption,,0,0,0,,Just one facilitator-controlled cue:\Npart chime, part tiny theatrical intervention.
+Dialogue: 1,0:00:39.00,0:00:45.50,Caption,,0,0,0,,Ken stopped mid-sentence. The cat sat down.\NThe meeting remembered it had other people in it.
+Dialogue: 0,0:00:45.50,0:00:47.60,Beat,,0,0,0,,MIRACLES: NOW AVAILABLE AS A BUTTON.
+
+Dialogue: 2,0:00:48.10,0:00:51.80,Hero,,0,0,0,,QUIET THINK
+Dialogue: 1,0:00:50.80,0:00:57.40,Caption,,0,0,0,,MoodX protected forty-five seconds, with one question:\Nwhat risk, question, or alternative have we not considered?
+Dialogue: 1,0:00:57.40,0:01:03.20,Caption,,0,0,0,,Nobody had to perform spontaneity.\NKen bravely survived not speaking.
+Dialogue: 1,0:01:03.20,0:01:09.50,Caption,,0,0,0,,Yuki wrote. Rob thought. The cat disabled the keyboard.\NA surprisingly strong facilitation technique.
+Dialogue: 0,0:01:09.50,0:01:11.60,Beat,,0,0,0,,45 SECONDS. KEN'S PERSONAL BEST.
+
+Dialogue: 2,0:01:12.10,0:01:15.50,Hero,,0,0,0,,THERE IT IS.
+Dialogue: 1,0:01:14.40,0:01:20.60,Caption,,0,0,0,,Yuki shared the risk everyone had missed:\Nthe launch depended on a system going offline tomorrow.
+Dialogue: 1,0:01:20.60,0:01:26.90,Caption,,0,0,0,,Ken listened. Mina asked a follow-up.\NRob finally found his unmute button.
+Dialogue: 1,0:01:26.90,0:01:33.30,Caption,,0,0,0,,The decision changed. No rankings. No public scores.\NJust a playful doorway, followed by a useful contribution.
+Dialogue: 0,0:01:33.30,0:01:35.60,Beat,,0,0,0,,USEFUL THOUGHT: SUCCESSFULLY UNMUTED.
+
+Dialogue: 2,0:01:36.10,0:01:39.80,Hero,,0,0,0,,A BETTER MEETING.
+Dialogue: 1,0:01:38.80,0:01:45.20,Caption,,0,0,0,,A better plan, a clear follow-up,\Nand eleven minutes returned to their lives.
+Dialogue: 1,0:01:45.20,0:01:51.00,Caption,,0,0,0,,MoodX did not make everyone louder.\NIt made room for the thought that mattered.
+Dialogue: 1,0:01:51.00,0:01:56.50,Caption,,0,0,0,,Fun opened the door. Participation created the value.\NThe cat, naturally, accepted full credit.
+Dialogue: 2,0:01:56.50,0:01:59.90,Hero,,0,0,0,,MOODX
+Dialogue: 2,0:01:57.50,0:01:59.90,Subhero,,0,0,0,,Make room for more minds.
+Dialogue: 0,0:01:56.00,0:01:59.90,Disclosure,,0,0,0,,Concept video · AI-generated visuals and synthetic preview narration · Human review required before publication

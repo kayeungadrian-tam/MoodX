@@ -32,6 +32,10 @@ alignment, a decision, or a follow-up. See the
 - [Meeting memo](docs/MEETING_MEMO.md)
 - [Product roadmap](docs/ROADMAP.md)
 - [Central pitch deck](docs/pitch-deck/index.html)
+- [Two-minute concept video](docs/video/MOODX_2MIN_VIDEO.md)
+- [Meme-led introduction script](docs/video/MOODX_MEME_NARRATIVE_SCRIPT.md)
+- [YouTube-ready meme-video delivery](videos/moodx-meme-95s/README.md)
+- [Saved video delivery](videos/moodx-2min-16x9/README.md)
 - [Research records](docs/research/)
 - [Product problem definition](docs/product/PROBLEM_DEFINITION.md)
 - [Customer journey](docs/product/CUSTOMER_JOURNEY.md)
@@ -127,6 +131,35 @@ See [What MoodX should do next](docs/research/2026-07-19-what-next-product-resea
 for the evidence, competitive implications, initial customer hypothesis,
 experiment design, feasibility gates, falsification criteria, and recommended
 roadmap.
+
+## How Codex and GPT-5.6 were used
+
+MoodX was built as a human–AI collaboration between the project owner and
+OpenAI Codex powered by GPT-5.6. The project owner supplied the lived meeting
+problem, made the product and design decisions, tested the application, and
+reviewed the outputs. Codex and GPT-5.6 helped turn that direction into a
+working, documented product by:
+
+- breaking the initial problem into customer, participation, facilitation,
+  safety, and technical hypotheses before implementation;
+- researching the competitive landscape and pressure-testing the claim that
+  fun should be a doorway to useful participation rather than the outcome;
+- maintaining the centralized [ADR](docs/ADR.md),
+  [meeting memo](docs/MEETING_MEMO.md),
+  [roadmap](docs/ROADMAP.md), technical documentation, and HTML pitch deck;
+- designing and implementing the native SwiftUI mixer, Core Audio/BlackHole
+  routing, custom local sound pads, unified session control, themes, local
+  transcription, meeting timer, protected checkpoint, and Quiet Think flow;
+- diagnosing runtime failures, adding tests and verification scripts, and
+  iterating on the interface from screenshots and real use;
+- creating reproducible media tooling, captions, original visual treatments,
+  and the [MoodX introduction video](videos/moodx-meme-95s/README.md); and
+- using project-scoped research and image-generation agents for bounded tasks
+  while keeping decisions and publication review with the human owner.
+
+This was not a one-shot generation workflow. The working loop was **discuss →
+document → implement → test → review → revise**, with the repository retaining
+the decisions, evidence, source code, tests, and build scripts.
 
 ## Project agents
 
