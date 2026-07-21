@@ -33,6 +33,9 @@ review without publishing secrets or unlicensed local test audio.
   license recorded in the repository.
 - Reviewed the staged file list for credential patterns and oversized files
   before publication.
+- Committed the complete project baseline, pushed
+  `agent/publish-moodx-project`, and opened draft pull request #1 against
+  `main`.
 
 ### Verification
 
@@ -43,8 +46,7 @@ review without publishing secrets or unlicensed local test audio.
 
 ### Next steps
 
-- Push the publication branch and open a draft pull request against `main`.
-- Review the draft diff and merge only after the repository owner is satisfied
+- Review draft pull request #1 and merge only after the repository owner is satisfied
   with the complete initial project scope.
 - Add any distributable sound to version control only with a documented license
   and provenance record.
