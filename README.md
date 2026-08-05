@@ -2,7 +2,7 @@
 
 <p align="center">
   <img
-    src="assets/generated/moodx-participation-shift.png"
+    src="assets/readme/participation-shift.jpg"
     alt="Concept illustration showing a quiet online meeting becoming warmer and more participatory after a facilitator-created opening"
     width="100%"
   />
@@ -101,7 +101,7 @@ transcripts under the ignored `.cache/` directory by default.
 
 <p align="center">
   <img
-    src="assets/generated/moodx-local-audio-system.png"
+    src="assets/readme/local-audio-system.jpg"
     alt="Concept illustration of microphone and facilitator-controlled sound-pad audio flowing locally through a Mac into an online meeting"
     width="100%"
   />
@@ -129,7 +129,7 @@ an interaction prototype and fallback, not the canonical runtime.
 
 <p align="center">
   <img
-    src="assets/video/moodx-quiet-think-app.png"
+    src="assets/readme/mixer-session-quiet-think.jpg"
     alt="MoodX Virtual Mixer during a live session: the Core Audio patch routes the MacBook Pro microphone to BlackHole, the 25-minute meeting timer is running, and a 45-second Quiet Think prompt asks participants to form one risk, question, or alternative"
     width="100%"
   />
@@ -138,7 +138,7 @@ an interaction prototype and fallback, not the canonical runtime.
 
 <p align="center">
   <img
-    src="assets/Screenshot%202026-07-21%20at%2023.35.20.png"
+    src="assets/readme/mixer-routing-timer.jpg"
     alt="MoodX Virtual Mixer after the timer completes: the routing panel shows microphone input, BlackHole virtual output, and the local-only privacy guarantee, while the meeting timer confirms Quiet Think is complete and prompts the facilitator to acknowledge the input"
     width="100%"
   />
@@ -147,7 +147,7 @@ an interaction prototype and fallback, not the canonical runtime.
 
 <p align="center">
   <img
-    src="assets/Screenshot%202026-07-21%20at%2023.35.29.png"
+    src="assets/readme/mixer-pads-transcription.jpg"
     alt="MoodX Virtual Mixer performance controls: nine keyboard-triggered sound pads, per-channel MIC/SFX/MASTER faders with mute and microphone ducking, and local live transcription with explicit English or Japanese selection"
     width="100%"
   />
