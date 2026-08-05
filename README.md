@@ -34,6 +34,8 @@ alignment, a decision, or a follow-up. See the
 - [Central pitch deck](docs/pitch-deck/index.html)
 - [Two-minute concept video](docs/video/MOODX_2MIN_VIDEO.md)
 - [Meme-led introduction script](docs/video/MOODX_MEME_NARRATIVE_SCRIPT.md)
+- [How I used Codex to build MoodX](docs/video/CODEX_BUILD_STORY_SCRIPT.md)
+- [Codex build-story video](videos/moodx-codex-story/README.md)
 - [YouTube-ready meme-video delivery](videos/moodx-meme-95s/README.md)
 - [Saved video delivery](videos/moodx-2min-16x9/README.md)
 - [Research records](docs/research/)
@@ -123,6 +125,35 @@ See the [native mixer setup guide](macos/MoodXMixer/README.md) for BlackHole and
 Teams routing. The earlier [`mixer/`](mixer/) browser implementation remains as
 an interaction prototype and fallback, not the canonical runtime.
 
+### App screenshots
+
+<p align="center">
+  <img
+    src="assets/video/moodx-quiet-think-app.png"
+    alt="MoodX Virtual Mixer during a live session: the Core Audio patch routes the MacBook Pro microphone to BlackHole, the 25-minute meeting timer is running, and a 45-second Quiet Think prompt asks participants to form one risk, question, or alternative"
+    width="100%"
+  />
+</p>
+<p align="center"><sub>A running session: local-only audio routing, the meeting timer with its protected final checkpoint, and an active Quiet Think prompt.</sub></p>
+
+<p align="center">
+  <img
+    src="assets/Screenshot%202026-07-21%20at%2023.35.20.png"
+    alt="MoodX Virtual Mixer after the timer completes: the routing panel shows microphone input, BlackHole virtual output, and the local-only privacy guarantee, while the meeting timer confirms Quiet Think is complete and prompts the facilitator to acknowledge the input"
+    width="100%"
+  />
+</p>
+<p align="center"><sub>After the checkpoint: the timer completes and the app reminds the facilitator to invite responses and acknowledge what the input changed.</sub></p>
+
+<p align="center">
+  <img
+    src="assets/Screenshot%202026-07-21%20at%2023.35.29.png"
+    alt="MoodX Virtual Mixer performance controls: nine keyboard-triggered sound pads, per-channel MIC/SFX/MASTER faders with mute and microphone ducking, and local live transcription with explicit English or Japanese selection"
+    width="100%"
+  />
+</p>
+<p align="center"><sub>Performance controls: nine sound pads, channel faders with mic ducking, and five-second memory-only local transcription in English or Japanese.</sub></p>
+
 The [living HTML pitch deck](docs/pitch-deck/index.html) now includes the
 current demo flow, a precise local-audio system overview, build evidence,
 guardrails, and documented AI-generated concept illustrations.
@@ -131,35 +162,6 @@ See [What MoodX should do next](docs/research/2026-07-19-what-next-product-resea
 for the evidence, competitive implications, initial customer hypothesis,
 experiment design, feasibility gates, falsification criteria, and recommended
 roadmap.
-
-## How Codex and GPT-5.6 were used
-
-MoodX was built as a human–AI collaboration between the project owner and
-OpenAI Codex powered by GPT-5.6. The project owner supplied the lived meeting
-problem, made the product and design decisions, tested the application, and
-reviewed the outputs. Codex and GPT-5.6 helped turn that direction into a
-working, documented product by:
-
-- breaking the initial problem into customer, participation, facilitation,
-  safety, and technical hypotheses before implementation;
-- researching the competitive landscape and pressure-testing the claim that
-  fun should be a doorway to useful participation rather than the outcome;
-- maintaining the centralized [ADR](docs/ADR.md),
-  [meeting memo](docs/MEETING_MEMO.md),
-  [roadmap](docs/ROADMAP.md), technical documentation, and HTML pitch deck;
-- designing and implementing the native SwiftUI mixer, Core Audio/BlackHole
-  routing, custom local sound pads, unified session control, themes, local
-  transcription, meeting timer, protected checkpoint, and Quiet Think flow;
-- diagnosing runtime failures, adding tests and verification scripts, and
-  iterating on the interface from screenshots and real use;
-- creating reproducible media tooling, captions, original visual treatments,
-  and the [MoodX introduction video](videos/moodx-meme-95s/README.md); and
-- using project-scoped research and image-generation agents for bounded tasks
-  while keeping decisions and publication review with the human owner.
-
-This was not a one-shot generation workflow. The working loop was **discuss →
-document → implement → test → review → revise**, with the repository retaining
-the decisions, evidence, source code, tests, and build scripts.
 
 ## Project agents
 
